@@ -11,7 +11,14 @@
     - ESP32-S2 (WiFi + TWAI)
     - OLED display (SSD1306, 128x64, I2C)
     - CAN transceiver
-  WiFi AP: HAPCAN/12345678
+  
+  Connections:
+    - OLED SDA -> GPIO 21
+    - OLED SCL -> GPIO 22
+    - CAN TX -> GPIO 5
+    - CAN RX -> GPIO 4
+
+  WiFi AP: https://hapcan.local Cred. HAPCAN/12345678
 */
 
 #include <Arduino.h>
