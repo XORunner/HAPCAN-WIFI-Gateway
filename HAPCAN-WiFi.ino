@@ -18,7 +18,7 @@
     - CAN TX -> GPIO 5
     - CAN RX -> GPIO 4
 
-  WiFi AP: https://hapcan.local Cred. HAPCAN/12345678
+  WiFi AP: http://hapcan.local Cred. HAPCAN/12345678
 */
 
 #include <Arduino.h>
